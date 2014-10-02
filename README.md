@@ -6,7 +6,6 @@ Very small PHP library which allows queuing of JS and CSS files which will later
 
 HOW TO USE
 ==========
-<?php
 
 require_once ($_SERVER["DOCUMENT_ROOT"] . '/includes/CombineAndCache.php');
 
@@ -27,7 +26,6 @@ $combinedJsFile = CAC::combineFileQueue($baseDir, '/js/combined.js');
 
 CAC::outputScript($combinedJsFile);
 
-?>
 
 FUTURE
 ======
