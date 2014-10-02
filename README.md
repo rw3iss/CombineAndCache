@@ -19,14 +19,11 @@ CAC::enqueueFiles(array(
   $baseDir . '/js/global.js'
 ));
 
-//Combine the files in the current queue together.
-//It will store the combined file in $baseDir + /js/combined.js
+//Combine the files in the current queue together. It will store the combined file in $baseDir + /js/combined.js
 
 $combinedJsFile = CAC::combineFileQueue($baseDir, '/js/combined.js');
   
-//Now output the current file to the browser. It can be passed a 'true' 
-//second parameter which will rener all of the javascript directly on the page, 
-//avoiding a <script> request all together.
+//Now output the current file to the browser. It can be passed a 'true' second parameter which will rener all of the javascript directly on the page, avoiding a <script> request all together.
 
 CAC::outputScript($combinedJsFile);
 
