@@ -38,5 +38,4 @@ Next things to be implemented:
 
 IDEAS
 =====
-
--Mail any ideas to rw3iss@gmail.com!
+Mail any ideas to rw3iss@gmail.com!
