@@ -33,6 +33,7 @@ FUTURE
 Next things to be implemented:
 
 -Support for multiple caches. ie. queue files into cache B (ie. javascript), and also queue some in cache B (ie. css). This will allow the library to become script/file-agnostic. Combine .png files and show your friends!
+
 -Change the interface for outputScript() to support the above (right now it's kind of focused on Javascript).
 
 IDEAS
