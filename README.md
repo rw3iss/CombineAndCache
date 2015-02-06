@@ -1,7 +1,7 @@
 CombineAndCache
 ===============
 
-Very small PHP library which allows queuing of JS and CSS files, wich can later combine them, cache the output to a single file, and serve this file. This is a server-side JS and CSS batcher, with plans for more later.
+Very small PHP library which allows queuing of JS and CSS files, and can later combine them, cache the output to a single file, and serve this file for future requests. This is a basic server-side JS and CSS batcher interface, with plans for more later.
 
 
 HOW TO USE
